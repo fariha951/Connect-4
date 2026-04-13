@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.player1 {
+    background-color: rgb(248, 9, 144);
+}
+
+.player2 {
+    background-color: rgb(34, 182, 219);
+}
